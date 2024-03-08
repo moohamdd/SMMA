@@ -1,0 +1,252 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  float: left;
+}
+
+/* Navbar styles */
+.nav {
+  animation: slideIn 1s ease-out;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #ffcc00;
+  /* Change to your desired hover color */
+}
+
+/* Rest of your existing CSS */
+
+
+.hero {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+  /* Change to your desired hover color */
+}
+
+.btn.btn-primary {
+  background-color: #333;
+}
+
+.btn.btn-primary:hover {
+  background-color: #555;
+  /* Change to your desired hover color */
+}
+
+
+.about {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.about .container {
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.services {
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.services .container {
+  text-align: center;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+}
+
+.service-item {
+  margin-bottom: 40px;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.contact {
+  background-color: #f0f0f0;
+  padding: 50px 0;
+}
+
+.contact .container {
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
+
+/* Slider styles */
+
+
+/* Rest of your existing CSS */
+
+
+/* Rest of your existing CSS */
+/* Portfolio styles */
+.portfolio {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.portfolio .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio .portfolio-item {
+  width: calc(33.33% - 20px);
+  margin: 0 10px;
+  text-align: center;
+}
+
+.portfolio .portfolio-item h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.portfolio .portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio .portfolio-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Rest of your existing CSS */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
